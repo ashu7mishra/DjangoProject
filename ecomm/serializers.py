@@ -2,13 +2,6 @@ from rest_framework.serializers import ModelSerializer
 from ecomm.models import *
 
 
-class UserSerializer(ModelSerializer):
-
-    class Meta:
-        model = User
-        fields = "__all__"
-
-
 class CreateShippingAddressSerializer(ModelSerializer):
 
     class Meta:
@@ -19,5 +12,15 @@ class ShippingAddressSerializer(ModelSerializer):
 
     class Meta:
         model = ShippingAddress
+        fields = "__all__"
+
+
+class UserSerializer(ModelSerializer):
+
+    shipping_addresses = ShippingAddressSerializer(many=True, read_only=True)
+    default_shipping_addresses = ShippingAddressSerializer(read_only=True, allow_null=True)
+
+    class Meta:
+        model = User
         fields = "__all__"
 

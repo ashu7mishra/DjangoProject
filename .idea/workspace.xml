@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2bd0bc-e5ae-42a4-9ba4-288f25c330f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ecomm/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecomm/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecomm/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomm/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecomm/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecomm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecomm/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecomm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecomm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecomm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecomm/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ashu7mishra&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ashu7mishra/DjangoProject.git&quot;,
+    &quot;accountId&quot;: &quot;1f9f3dee-28c3-44be-bc87-a6554cc2fa5d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -36,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ecomm" type="Python.DjangoServer" factoryName="Django server">
       <module name="ecomm" />
@@ -91,7 +103,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735704177548</updated>
-      <workItem from="1735704178660" duration="8788000" />
+      <workItem from="1735704178660" duration="9181000" />
+      <workItem from="1735790301885" duration="1480000" />
+      <workItem from="1736140777281" duration="3291000" />
     </task>
     <servers />
   </component>
